@@ -27,6 +27,11 @@
 
    - El juego debería cargarse en tu navegador y estar listo para jugar.
 
-***Implementación de las funcionalidades Básicas:***
-
-**1. Sonido:**
+# Funcionalidades Implementadas:
+1.   **Sonido:** Función llamada sonido() que reproduce un sonido cuando se llama. Se llama a esta función cuando el jugador presiona la tecla correspondiente. Por ejemplo, puedes llamar a sonido() dentro de las funciones nota1(), nota2(), nota3(), y nota4() cuando el círculo correspondiente esté en la posición correcta. También se agrego una canción a la aplicación.
+2.   **Contador de Puntos:** Variable contador que registra el puntaje del jugador. Actualiza esta variable dentro de las funciones que manejan la detección de teclas (donde incrementas el puntaje) y llama a la función actualizarPuntaje() para reflejar el cambio en el HTML.
+3.   **Mínimo 4 Cuerdas:** El código ya maneja cuatro cuerdas (representadas por los círculos) asociadas a teclas específicas (a, s, k, l).
+4.   **Aleatoriedad en las Notas:** Actualmente, las notas se mueven verticalmente en la pantalla de manera constante. Las notas se generen aleatoriamente en la parte superior de la pantalla y se muevan hacia abajo de manera aleatoria. Esto puede hacerse ajustando las funciones nota1(), nota2(), nota3(), y nota4() para generar posiciones y velocidades aleatorias.
+5.   **Botón de Pausa:** Funciones mostrarMenu() y ocultarMenu() que muestran y ocultan un menú de pausa. Se llaman a estas funciones cuando el jugador presione el botón de pausa.
+6.   **Botón de Inicio:** Función llamada iniciar() que inicia el juego y muestra el contenido principal. Se llama a esta función cuando se presione el botón de inicio.
+   
